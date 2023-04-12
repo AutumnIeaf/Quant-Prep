@@ -2105,7 +2105,7 @@ hr{
     font-family:"Josefin Sans",sans-serif;
     padding:39px 30px;
     display:block;
-    font-size:18px;
+    font-size:16px;
     -webkit-transition:all .3s ease-out 0s;
     -moz-transition:all .3s ease-out 0s;
     -ms-transition:all .3s ease-out 0s;
@@ -2267,7 +2267,7 @@ hr{
 .slider-height{
     /* background-image:url(../img/hero/h1_hero.png); */
     background-color: #b1bfd8;
-background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
     min-height:840px;
     background-repeat:no-repeat;
     background-position:center center;
@@ -2289,7 +2289,8 @@ background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
     }
 }
 .slider-height2{
-    background-image:url(../img/hero/hero2.png);
+    background-color: #b1bfd8;
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
     min-height:455px;
     background-repeat:no-repeat;
     background-position:center;
@@ -3460,6 +3461,7 @@ background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
 @media only screen and (min-width: 576px) and (max-width: 767px){
     .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a{
         font-size:19px
+
     }
 }
 @media (max-width: 575px){
@@ -3470,7 +3472,7 @@ background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap .more-btn{
     color:#3a3a3a;
     text-transform:uppercase;
-    font-size:14px;
+    font-size:16px;
     font-family:"Sen",sans-serif;
     color:#3a3a3a
 }
